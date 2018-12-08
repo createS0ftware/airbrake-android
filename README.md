@@ -66,7 +66,7 @@ Apache License, Version 2.0. Read the full license here:
 
 Contributions
 -------
-This libary was built by George makulu http://loopj.com/. Since it's no longer being maintianed this is the offical gmright fork. 
+This libary was built by George makulu http://xerocole.com/. Since it's no longer being maintianed this is the offical gmright fork. 
 
 Thanks to George makulu for his contributions.
 
