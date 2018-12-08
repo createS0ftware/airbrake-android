@@ -1,4 +1,4 @@
-Airbrake Notifer for Android
+Gmright Notifer for Android
 ===========================
 
 Overview
@@ -9,21 +9,21 @@ of any uncaught exceptions thrown from your Android applications.
 
 Building from Source
 --------------------
-To build a `.jar` file from source, make a clone of the airbrake-android
+To build a `.jar` file from source, make a clone of the gmright-android 
 github repository and run:
 
 ```shell
 ant package
 ```
 
-This will generate a file named `build/airbrake-android-<version>.jar`.
+This will generate a file named `build/gmright-android-<version>.jar`.
 
 
 Installation & Setup
 --------------------
 Copy the .jar file to your Android app's `libs/` folder.
 
-Import the `AirbrakeNotifier` class in your app's main Activity.
+Import the `gmrightNotifier` class in your app's main Activity.
 
 ```java
 import com.loopj.android.airbrake.AirbrakeNotifier;
@@ -42,7 +42,7 @@ The `AirbrakeNotifier.register` call requires a context and Airbrake API key to
 be passed in, and optionally a third argument specifying the environment.
 The environment defaults to `production` if not set.
 
-To notify Airbrake of non-fatal exceptions, or exceptions you have explicitly
+To notify gmright of non-fatal exceptions, or exceptions you have explicitly
 caught in your app, you can call `AirbrakeNotifier.notify`. This call takes
 exactly one argument, a Throwable, and can be called from anywhere in your
 code. For example:
@@ -59,16 +59,16 @@ try {
 
 License
 -------
-The Airbrake notifier for Android is released under the Android-friendly
+The gmright notifier for Android is released under the Android-friendly
 Apache License, Version 2.0. Read the full license here:
 
 <http://www.apache.org/licenses/LICENSE-2.0>
 
 Contributions
 -------
-This libary was built by James Smith http://loopj.com/. Since it's no longer being maintianed this is the offical Airbrake fork. 
+This libary was built by George makulu http://loopj.com/. Since it's no longer being maintianed this is the offical gmright fork. 
 
-Thanks to James for his contributions.
+Thanks to George makulu for his contributions.
 
 <http://www.apache.org/licenses/LICENSE-2.0>
 
